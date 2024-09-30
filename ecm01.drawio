@@ -9297,6 +9297,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="_Pl1ZlYvO0Ej2dmD3TB0-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="XyvjFi8SYsZS_mx9Vt9J-18">
+          <mxGeometry x="40" y="1070" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_Pl1ZlYvO0Ej2dmD3TB0-12" value="InitializeDeviceManagers" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="_Pl1ZlYvO0Ej2dmD3TB0-11" parent="XyvjFi8SYsZS_mx9Vt9J-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="1050" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XyvjFi8SYsZS_mx9Vt9J-19" value="new" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1" target="XyvjFi8SYsZS_mx9Vt9J-18">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="360" y="410" as="sourcePoint" />
