@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1" pages="15">
   <diagram id="pf9f809b01be549a2b23bb1f4f5f6e182_595664794" name="Packages">
     <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" shadow="1">
       <root>
@@ -9637,6 +9637,51 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="550" as="sourcePoint" />
             <mxPoint x="500" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oCanOyMeYzEIHLKwxtVN" name="Pagina-15">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3vORzyb0VuYUMpLsdWMI-1" value="&lt;div&gt;25 events in clr.dll!ThreadpoolMgr::CompletionPortThreadStart&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stack trace&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;clr.dll!ThreadpoolMgr::CompletionPortThreadStart&lt;/div&gt;&lt;div&gt;clr.dll!Thread::intermediateThreadProc&lt;/div&gt;&lt;div&gt;kernel32.dll!BaseThreadInitThunk&lt;/div&gt;&lt;div&gt;ntdll.dll!RtlUserThreadStart&lt;/div&gt;&lt;div&gt;All Calls&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#stacktrace&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="20" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3vORzyb0VuYUMpLsdWMI-2" value="&lt;code&gt;SyncMethodInvoker&lt;/code&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3vORzyb0VuYUMpLsdWMI-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3vORzyb0VuYUMpLsdWMI-2">
+          <mxGeometry x="40" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vORzyb0VuYUMpLsdWMI-4" value="&lt;code&gt;Invoke(Object, Object[], out Object[])&lt;/code&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="3vORzyb0VuYUMpLsdWMI-3" parent="3vORzyb0VuYUMpLsdWMI-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="60" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vORzyb0VuYUMpLsdWMI-5" value="dynamicClass" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3vORzyb0VuYUMpLsdWMI-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3vORzyb0VuYUMpLsdWMI-5">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vORzyb0VuYUMpLsdWMI-7" value="SyncInvokeVehicleItineraryChange(Object, Object[], Object[])" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="3vORzyb0VuYUMpLsdWMI-6" parent="3vORzyb0VuYUMpLsdWMI-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vORzyb0VuYUMpLsdWMI-8" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="3vORzyb0VuYUMpLsdWMI-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="370" as="sourcePoint" />
+            <mxPoint x="290" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
